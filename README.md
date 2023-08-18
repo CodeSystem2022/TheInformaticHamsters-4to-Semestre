@@ -1,1 +1,4 @@
-# TheInformaticHamsters-4to-Semestre
+<h1 align="center">The Informatic Hamsters - 4to Semestre  </h1>
+<br>
+<p align="center">
+  <img width="50%" src= "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffotos-premium%2Flindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_245726-4337.jpg%3Fw%3D2000&tbnid=7-tidaOI1r35qM&vet=12ahUKEwie_-7vnuaAAxXBGLkGHemWBFcQMygAegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Flindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_37250388.htm&docid=kcpjqolgQxo5GM&w=2000&h=2000&q=imagen%20de%20un%20hamster%20utilizando%20una%20con%20una%20computadora%20en%20anime&ved=2ahUKEwie_-7vnuaAAxXBGLkGHemWBFcQMygAegQIARBU](https://www.google.com/save/list/xv-GRJnYOZI2P0m1eBDc17FxZTOpYw?hl=es)https://www.google.com/save/list/xv-GRJnYOZI2P0m1eBDc17FxZTOpYw?hl=es/>
