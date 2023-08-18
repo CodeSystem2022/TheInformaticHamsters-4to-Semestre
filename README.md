@@ -23,7 +23,7 @@
 
 | **Sprint** | **Scrum Asignado** 👨‍💻 |
 | ------------- |:-------------:|
-| Semana 1 | *Quispe Marcelo Alejandro* |
+| Semana 1 | *Marcelo Alejandro Quispe* |
 | Semana 2 | *Nadia Yanella Acosta* |
 | Semana 3 | *Giuliana Paola Diaz Luna* |
 | Semana 4 | *Juan Pablo Nolan* |
