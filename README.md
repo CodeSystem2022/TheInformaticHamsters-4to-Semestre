@@ -9,14 +9,15 @@
   <img  width="100%" src="https://user-images.githubusercontent.com/86338019/236111314.54438710-2aa0-4be6-bcdd-cdf295d7b330.gif" alt="HamstersBanner" />
 </p>
 
-<h2>  Colaboradores: </h2>
+<details>
+<summary> Quienes somos los  Colaboradores: </summary><br>
 <ul>
   <li>Acosta, Nadia Yanella </li>
   <li>Diaz Luna, Giuliana Paola </li>
   <li>Nolan, Juan Pablo</li>
   <li>Quispe, Marcelo Alejandro</li>
   <li>Rodriguez Saquilan, Miguel</li>
-</ul>
+</details>
 
 <h2> 🗓️ Organización por Sprint 4to Semestre: </h2>
 
