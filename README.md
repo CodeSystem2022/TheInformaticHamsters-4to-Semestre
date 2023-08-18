@@ -15,7 +15,7 @@
   <li>Acosta, Nadia Yanella </li>
   <li>Diaz Luna, Giuliana Paola </li>
   <li>Nolan, Juan Pablo</li>
-  <li>Quispe, Marcelo Alejandro-[Marcelo Alejandro Quispe](https://github.com/MarceloAlejandroQuispe) <br>
+  <li>Quispe, Marcelo Alejandro</li>
   <li>Rodriguez Saquilan, Miguel</li>
 </details>
 
