@@ -1,5 +1,29 @@
 <h1 align="center">The Informatic Hamsters - 4to Semestre  </h1>
 <br>
 <p align="center">
-  <img width="50%" src= "[[https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffotos-premium%2Flindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_245726-4337.jpg%3Fw%3D2000&tbnid=7-tidaOI1r35qM&vet=12ahUKEwie_-7vnuaAAxXBGLkGHemWBFcQMygAegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Flindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_37250388.htm&docid=kcpjqolgQxo5GM&w=2000&h=2000&q=imagen%20de%20un%20hamster%20utilizando%20una%20con%20una%20computadora%20en%20anime&ved=2ahUKEwie_-7vnuaAAxXBGLkGHemWBFcQMygAegQIARBU](https://www.google.com/save/list/xv-GRJnYOZI2P0m1eBDc17FxZTOpYw?hl=es)https://www.google.com/save/list/xv-GRJnYOZI2P0m1eBDc17FxZTOpYw?hl=](https://www.freepik.es/fotos-premium/lindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_37250388.htm?sign-up=google)https://www.freepik.es/fotos-premium/lindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_37250388.htm?sign-up=google](https://www.freepik.es/fotos-premium/lindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_37250388.htm)https://www.freepik.es/fotos-premium/lindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_37250388.htm/>
+  <img width="50%" 
+  src= "https://img.freepik.com/fotos-premium/lindo-hamster-estilo-dibujos-animados-que-trabaja-concepto-computadora-portatil-hecho-ia-generativa_245726-4337.jpg?w=740" />
 </p>
+
+<p align="center">
+  <img  width="100%" src="https://user-images.githubusercontent.com/86338019/236111314.54438710-2aa0-4be6-bcdd-cdf295d7b330.gif" alt="HamstersBanner" />
+</p>
+
+<h2>  Colaboradores: </h2>
+<ul>
+  <li>Acosta, Nadia Yanella </li>
+  <li>Diaz Luna, Giuliana Paola </li>
+  <li>Nolan, Juan Pablo</li>
+  <li>Quispe, Marcelo Alejandro</li>
+  <li>Rodriguez Saquilan, Miguel</li>
+</ul>
+
+<h2> 🗓️ Organización por Sprint 4to Semestre: </h2>
+
+| **Sprint** | **Scrum Asignado** 👨‍💻 |
+| ------------- |:-------------:|
+| Semana 1 | *Quispe Marcelo Alejandro* |
+| Semana 2 | *Nadia Yanella Acosta* |
+| Semana 3 | *Giuliana Paola Diaz Luna* |
+| Semana 4 | *Juan Pablo Nolan* |
+| Semana 5 | *Miguel Rodriguez Saquilan* |
