@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img  width="100%" src="https://user-images.githubusercontent.com/86338019/236111314.54438710-2aa0-4be6-bcdd-cdf295d7b330.gif" alt="HamstersBanner" />
+  <img  width="100%" src="https://i.pinimg.com/originals/cd/6c/fb/cd6cfba191f437ba4ef08beae7af2b31.gif" />
 </p>
 
 <details>
