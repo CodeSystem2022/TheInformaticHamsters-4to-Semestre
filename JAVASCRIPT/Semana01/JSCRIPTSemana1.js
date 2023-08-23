@@ -6,7 +6,7 @@ Scrum Master: Quispe Marcelo Alejandro
 */
 
 
-// 1.1 Comenzamos con el proyecto - Alumno: 
+// 1.1 Comenzamos con el proyecto - Alumno: Miguel Rodriguez Saquilan
 
 
 
