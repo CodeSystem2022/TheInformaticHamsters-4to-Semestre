@@ -8,7 +8,7 @@
 
 
 
-# 1.1 Comenzamos con el laboratorio de usuario: como tarea se debe crear el UML - Alumno:  
+# 1.1 Comenzamos con el laboratorio de usuario: como tarea se debe crear el UML - Alumno: Giuliana Paola Diaz Luna
 
 
 # 1.2 Comenzamos a cargar la base de datos -> continuamos con postgresql - Alumno: Miguel Rodriguez Saquilan 
