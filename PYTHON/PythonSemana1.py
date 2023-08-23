@@ -11,7 +11,7 @@
 # 1.1 Comenzamos con el laboratorio de usuario: como tarea se debe crear el UML - Alumno:  
 
 
-# 1.2 Comenzamos a cargar la base de datos -> continuamos con postgresql - Alumno: 
+# 1.2 Comenzamos a cargar la base de datos -> continuamos con postgresql - Alumno: Miguel Rodriguez Saquilan 
 
 
 # 1.3 Vamos a avanzar con la clase entidad Usuario  - Alumno : Nadia Acosta
