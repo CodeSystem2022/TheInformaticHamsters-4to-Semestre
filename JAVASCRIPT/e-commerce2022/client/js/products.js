@@ -29,3 +29,20 @@ const productos = [
     }
 
 ]
+
+.card-products button {
+    border: none,
+    outline: 0,
+    padding: 10px,
+    color: white, 
+    background-color: #1bcb7f,
+    text-align: clearInterval,
+    cursor: pointer,
+    width: 100%,
+    font-size: 15px,
+
+}
+.card-products button: hover {
+    opacity: 0.7,
+}
+
