@@ -42,3 +42,17 @@ print(f'a = 10 Base Hexadecimal:{a}');
 # Base 5 sua valores son 0,1,2,3,4
 a = int('344', 5)
 print(f'a =5 base Base 5 :{a}');
+
+# 2.4 Comenzamos con -> 2.4 Exponencial negativo y positivo  Alumno: Marcelo Alejandro Quispe
+
+a = 3e5
+print(f'a: {a:.2f}')
+
+
+a = 3e-5
+print(f'a: {a:.5f}')
+
+# Cualquier calculo que incluye un float , todo cambia a float
+a = 4.0 + 5
+print(a)
+print(type(a))
