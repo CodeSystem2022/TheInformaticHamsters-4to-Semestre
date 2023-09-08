@@ -30,7 +30,8 @@ const modalTitle = document.createElement("div");
 
 cartBtn.addEventListener("click", displayCart);
 
-
+        // 3.4 Botones de suma y resta de productos
+        
         const decrese = modalBody.querySelector(".quantity-btn-decrese");
         decrese.addEventListener("click", () => { 
             if(producto.quanty !== 1){
@@ -48,7 +49,7 @@ cartBtn.addEventListener("click", displayCart);
         });
 
 
-    //delete
+        //delete
 
         const deleteProduct = modalBody.querySelector(".delete-product");
 
