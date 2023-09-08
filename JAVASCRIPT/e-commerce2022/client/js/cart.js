@@ -11,9 +11,9 @@ const displayCart = () => {
 const modalHeader = document.createElement("div");
 
 const modalClose = document.createElement("div");
-modalClose.innerText = "❌"
-modalClose.className = "modal-close";
-modalHeader.append(modalClose)
+    modalClose.innerText = "❌"
+    modalClose.className = "modal-close";
+    modalHeader.append(modalClose)
 
 modalClose.addEventListener("click", ()=>{
     modalContainer.style.display = "none";
@@ -21,11 +21,38 @@ modalClose.addEventListener("click", ()=>{
 })
 
 const modalTitle = document.createElement("div");
-modalTitle.innerText = "Cart";
-modalTitle.className = "modal-title";
-modalHeader.append(modalTitle);
+    modalTitle.innerText = "Cart";
+    modalTitle.className = "modal-title";
+    modalHeader.append(modalTitle);
 
-modalContainer.append(modalHeader);
+    modalContainer.append(modalHeader);
 };
 
 cartBtn.addEventListener("click", displayCart);
+
+        // 3.4 Botones de suma y resta de productos
+        
+        const decrese = modalBody.querySelector(".quantity-btn-decrese");
+        decrese.addEventListener("click", () => { 
+            if(producto.quanty !== 1){
+                product.quanty--;
+                displayCart();
+            }
+        });    
+
+
+
+        const increse = modalBody.querySelector(".quantity-btn-increse");
+        increse.addEventListener("click", () => {
+            product.quanty++;
+            displayCart();
+        });
+
+
+        //delete
+
+        const deleteProduct = modalBody.querySelector(".delete-product");
+
+        deleteProduct.addEventListener("click", () => {
+            deleteCartProduct(product.id);
+        })
