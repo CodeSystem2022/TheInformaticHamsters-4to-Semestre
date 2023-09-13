@@ -2,6 +2,7 @@ const modalContainer = document.getElementById("modal-container");
 const modalOverlay = document.getElementById("modal-overlay");
 
 const cartBtn = document.getElementById("cart-btn");
+const cartCounter = document.getElementById("cart-counter");
 
 const displayCart = () => {
     modalContainer.innerHTML = " ";
@@ -65,7 +66,7 @@ cartBtn.addEventListener("click", displayCart);
 
         // 3.4 Botones de suma y resta de productos
         
-        const decrese = modalBody.querySelector(".quantity-btn-decrese");
+    const decrese = modalBody.querySelector(".quantity-btn-decrese");
         decrese.addEventListener("click", () => { 
             if(producto.quanty !== 1){
                 product.quanty--;
@@ -75,7 +76,7 @@ cartBtn.addEventListener("click", displayCart);
 
 
 
-        const increse = modalBody.querySelector(".quantity-btn-increse");
+    const increse = modalBody.querySelector(".quantity-btn-increse");
         increse.addEventListener("click", () => {
             product.quanty++;
             displayCart();
@@ -84,8 +85,22 @@ cartBtn.addEventListener("click", displayCart);
 
         //delete
 
-        const deleteProduct = modalBody.querySelector(".delete-product");
+    const deleteProduct = modalBody.querySelector(".delete-product");
 
         deleteProduct.addEventListener("click", () => {
             deleteCartProduct(product.id);
         })
+
+
+
+
+
+    const displayCartCounter = () => {
+        const cartLength = cart.reduce((acc, el) => acc + el.quanty, 0);
+        if (cart > 0){
+            cartCounter.style.display = "block";
+            cartCounterText.innerText= cartLength;
+        }else{
+            cartCounter.style.display = "none";
+        }
+    };
