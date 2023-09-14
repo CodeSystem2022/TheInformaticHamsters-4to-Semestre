@@ -1,7 +1,7 @@
 import math
 from decimal import Decimal
 
-#NaN (Not a Namber)
+#NaN (Not a Namber) dato numerico indefinido
 a = float("NaN")
 print(f'a: {a}')
 
