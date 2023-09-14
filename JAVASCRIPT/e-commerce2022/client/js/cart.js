@@ -82,10 +82,24 @@ cartBtn.addEventListener("click", displayCart);
         });
 
 
-        //delete
+           //delete
 
-        const deleteProduct = modalBody.querySelector(".delete-product");
+           const deleteProduct = modalBody.querySelector(".delete-product");
 
-        deleteProduct.addEventListener("click", () => {
-            deleteCartProduct(product.id);
-        })
+           deleteProduct.addEventListener("click", () => {
+               deleteCartProduct(product.id);
+           })
+   
+           // modal fotter
+   
+           // Definimos el metodo deletCartProduct
+   
+           const deleteCartProduct =(id)=> {
+               const foundId = cart.findIndex((element)=> element.id === id)
+               //console.log(foundId);
+               cart.splice(foundId,1); // lo eliminamos del carrito
+               displayCart();
+   
+   
+           }
+   
