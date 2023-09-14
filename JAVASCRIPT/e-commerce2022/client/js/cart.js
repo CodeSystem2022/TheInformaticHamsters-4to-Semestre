@@ -50,11 +50,12 @@ const modalTitle = document.createElement("div");
         modalContainer.append(modalBody)
     });
     // modal fotter
+    const total = cart.reduce((acc, el) => acc + el.price * el.quanty, 0);
 
     const modalFooter = document.createElement("div");
     modalFooter.className ="modal-footer"
     modalFooter.innerHTML =`
-    <div class="total-price">Total:</div>
+    <div class="total-price">${total}</div>
     `;
     modalContainer.append(modalFooter)
 
@@ -91,6 +92,7 @@ cartBtn.addEventListener("click", displayCart);
            })
    
            // modal fotter
+           
    
            // Definimos el metodo deletCartProduct
    

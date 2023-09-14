@@ -48,3 +48,19 @@ print(f'valor de un diccionario vacio: {valor}, Resultado: {resultado}')
 valor = {'Nombre': 'Juan', 'Apellido': 'Perez'}
 resultado = bool(valor)
 print(f'valor de un diccionario con elementos: {valor}, Resultado: {resultado}')
+
+
+# Parte 4 - Sentencias de control con bool - Alumno: Nadia Acosta
+if valor:
+    print('Regresa verdadero')
+else:
+    print('Regresa falso')
+
+
+# Parte 5 - ciclos - Alumno: Nadia Acosta
+variable = 17
+while variable:
+    print('Regresa falso')
+    break
+else:
+    print('Regresa falso')
