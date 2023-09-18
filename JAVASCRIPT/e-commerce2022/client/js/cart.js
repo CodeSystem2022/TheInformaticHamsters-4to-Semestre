@@ -89,3 +89,20 @@ cartBtn.addEventListener("click", displayCart);
             displayCart();
         });
 
+        const deleteCartProduct = (id) => {
+            const founId = cart.findIndex((element) => element.id ===> id);
+            displayCart();
+            displayCartCounter();
+        };
+
+        const displayCartCounter = ()=>{
+            const cartLength = cart.reduce((acc, el) => acc +  el.quanty, 0 );
+            if(cartLength > 0){
+                cartCounter.style.display = "block";
+                cartCounter.innerText = cartLength;
+            }else{
+                cartCounter.style.display = "none";
+            }
+        };
+
+
