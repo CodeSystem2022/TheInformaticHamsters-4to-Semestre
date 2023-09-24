@@ -38,7 +38,7 @@
 
 <h2> 🗓️ Organización por Sprint 4to Semestre: </h2>
 
-| **Sprint** | **Scrum Asignado** 👨‍💻 |
+| **Sprint** | **Scrum Master Asignado** 👨‍💻 |
 | ------------- |:-------------:|
 | Semana 1 | *Marcelo Alejandro Quispe* |
 | Semana 2 | *Nadia Yanella Acosta* |
