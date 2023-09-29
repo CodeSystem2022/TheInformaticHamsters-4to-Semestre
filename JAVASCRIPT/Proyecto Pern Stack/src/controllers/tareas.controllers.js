@@ -16,6 +16,19 @@ export const crearTarea = async(req, res) => {
    
 };
 
+
 export const actualizarTarea = (req, res) => res.send('actualizando tarea unica');
 
-export const eliminarTarea = (req, res) => res.send('Eliminando tarea unica');
+
+// Método eliminarTarea Alumno:  Marcelo Quispe
+
+export const eliminarTarea = async (req, res) => {
+    const resultado = await pool.query ('DELETE * FROM tareas WHERE id = $1', (req.params.id));
+    
+    if (resultado.rowCount === 0) {
+        return res.status(404).json ({
+            message: "No existe la tarea con  ese  id"
+        });
+    }
+    return res.sendStats(204);
+}    
