@@ -1,9 +1,14 @@
 import morgan from "morgan";
 
 import app from "./app.js";
-
-app.listen(3000);
-
+import {pool} from "./db.js";
 
 
-console.log("Server on port", 3000);
+
+pool.query("SELECT NOW()", (err, res) => {
+    console.log(err, res);
+    app.listen(3000);
+    console.log("Server on port", 3000);
+    pool.end();
+});
+
