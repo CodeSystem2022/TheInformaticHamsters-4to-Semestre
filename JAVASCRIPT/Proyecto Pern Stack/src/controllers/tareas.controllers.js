@@ -1,17 +1,30 @@
 import { pool } from "../db.js";
 
-export const listarTareas = (req, res) => res.send('obteniendo tareas');
+export const listarTareas = async (req, res, next) => res => {
+
+    const resultado = await pool.query('SELECT * FROM tareas1');
+    console.log(resultado);
+    return res.json(resultado.rows);
+
+}
 
 export const listarTarea = (req, res) => res.send('obteniendo tarea unica');
 
 export const crearTarea = async(req, res) => {
     const { titulo, descripcion } = req.body;
     
-    try { const {rows} = await pool.query('INSERT INTO tareas (titulo, descripcion) VALUES ($1, $2)', [titulo, descripcion]);
-    console.log(rows);
-    res.send('Creando tarea');
-    } catch (error) {
-        console.log("Algo salio mal");
+    try { 
+        const {rows} = await pool.query('INSERT INTO tareas (titulo, descripcion) VALUES ($1, $2)', [titulo, descripcion]);
+   res.json(result.rows[0]);
+   console.log(result.rows[0]);
+    } catch(error) {
+        if (error.code === '23505') {
+            return res.send-status(400).json({
+                message: 'Ya existe una tarea con ese titulo'
+            });
+        }
+        console.log(error);
+        next(error);
     }
    
 };
@@ -43,4 +56,4 @@ export const eliminarTarea = async (req, res) => {
         });
     }
     return res.sendStats(204);
-}    
+} 
