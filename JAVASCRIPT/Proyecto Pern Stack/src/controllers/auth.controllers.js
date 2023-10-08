@@ -1,10 +1,15 @@
 import { pool } from "../db.js";
+// 7.2 Utilización de bcrypt para proteger el password #166-- Alumno Miguel Rodriguez Saquilan
+import bcrypt  from "bcrypt";
 
 export const signin = (req, res) => res.send("Ingresando");
 
 export const signup = async (req, res) => {
     const {name, email, password} = req.body;
     try {
+        const hashedPassword = await bcrypt.hash(password,10);
+        console.log(hashedPassword);
+
         const result =  await pool.query("INSERT INTO usuarios (name, email, password) VALUES ($1, $2, $3) Returning *", [name, email, password]);
         console.log(result);
         return res.json(result.rows[0]);
