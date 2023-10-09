@@ -45,3 +45,8 @@
 | Semana 3 | *Giuliana Paola Diaz Luna* |
 | Semana 4 | *Juan Pablo Nolan* |
 | Semana 5 | *Miguel Rodriguez Saquilan* |
+| Semana 6 | *Marcelo Alejandro Quispe* |
+| Semana 7 | *Nadia Yanella Acosta* |
+| Semana 8 | *Juan Pablo Nolan* |
+| Semana 9 | *Giuliana Paola Diaz Luna* |
+| Semana 10 | *Miguel Rodriguez Saquilan* |
