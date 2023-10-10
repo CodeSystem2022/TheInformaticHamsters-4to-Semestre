@@ -1,5 +1,5 @@
 import Router from "express promise router";
-
+import {isAuth} from "../middlewares/auth.middleware.js"
 const router = Router();
 
 router.get('/tareas',(req,res) => res.send ('obteniendo tareas'));
