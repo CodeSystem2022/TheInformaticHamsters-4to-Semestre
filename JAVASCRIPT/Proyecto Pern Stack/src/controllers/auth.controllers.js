@@ -23,3 +23,12 @@ export const signup = async (req, res) => {
 export const signout = (req, res) => res.send("Cerrando sesion");
 
 export const profile  = (req, res) => res.send("Perfil de usuario");
+
+// 7.4  Cookies -> Guardar el token con cookie -- Alumno: Marcelo A.Quispe
+
+res.cookie("token", token, {
+    httpOnly: true,
+    secure: false,
+    sameSite: "none",
+    maxAge: 60 * 60 * 24 * 1000,}) // 1 day}) 
+return res.json(result.rows[0]); // Fin parte 7.4
