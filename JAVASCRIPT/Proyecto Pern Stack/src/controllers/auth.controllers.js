@@ -5,7 +5,9 @@ import {createAccessToken} from "../libs/jwt.js"
 
 export const signin = (req, res) => res.send("Ingresando");
 
-export const signup = async (req, res) => {
+
+
+export const signup = async (req, res, next) => {
     const {name, email, password} = req.body;
     try {
         const hashedPassword = await bcrypt.hash(password,10);
@@ -23,13 +25,21 @@ export const signup = async (req, res) => {
     } catch (error) {
         if(error.code === "23505"){
             return res.status(400).json({message: "El correo ya esta registrado"});
-        }    
+        }  
+        next(error)  
     }
 };
 
-export const signout = (req, res) => res.send("Cerrando sesion");
+// 8.2 Cierre de sesión -> signout -- Alumno Miguel Rodriguez Saquilan
+export const signout = (req, res) => {
+    res.clearCookie("token");
+    return res.json({message: "Secion cerrada"})
+};
 
-export const profile  = (req, res) => res.send("Perfil de usuario");
+export const profile  = async(req, res) => {
+        const result = await pool.query("SELECT * FROM usuarios WHERE id = $1", [req.usuarioId]);
+        return res.json(result.rows[0]);
+};
 
 // 7.4  Cookies -> Guardar el token con cookie -- Alumno: Marcelo A.Quispe
 
