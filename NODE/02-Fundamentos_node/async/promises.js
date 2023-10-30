@@ -1,3 +1,5 @@
+// clase sobre promesas
+
 function hola (nombre){
     return  new Promise(function(resolve, reject){
         setTimeout( function() {
