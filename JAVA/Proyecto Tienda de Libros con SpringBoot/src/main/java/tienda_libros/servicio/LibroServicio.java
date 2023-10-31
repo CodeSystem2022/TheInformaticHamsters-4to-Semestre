@@ -1,14 +1,14 @@
-package tienda_libros.servicio;
+package utn.tienda_libros.servicio;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tienda_libros.modelo.Libro;
-import tienda_libros.repositorio.LibroRepositorio;
+import utn.tienda_libros.modelo.Libro;
+import utn.tienda_libros.repositorio.LibroRepositorio;
 
 import java.util.List;
 
 @Service
-public class LibroServicio implements ILibroServicio{
+public class LibroServicio implements ILibroServicio {
 
     @Autowired
     private LibroRepositorio libroRepositorio;
@@ -26,11 +26,11 @@ public class LibroServicio implements ILibroServicio{
 
     @Override
     public void guardarLibro(Libro libro) {
-    libroRepositorio.save(libro);
+        libroRepositorio.save(libro);
     }
 
     @Override
     public void eliminarLibro(Libro libro) {
-    libroRepositorio.delete(libro);
+        libroRepositorio.delete(libro);
     }
 }
